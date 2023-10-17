@@ -26,3 +26,5 @@ To compile and use the `printf` function in your C programs, follow these steps:
 3. Compile the source files to create a library or executable, depending on the project's structure.
 
 4. Include the appropriate header file in your C code:
+
+Note: While cloning remember to use the github user name of the one who created the repo.
