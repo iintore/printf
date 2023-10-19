@@ -84,7 +84,7 @@ int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
-/*Function to print string in reverse*/
+/*Function to print strings in reversed oder*/
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
@@ -114,4 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+#endif
